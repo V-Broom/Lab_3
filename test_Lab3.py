@@ -24,6 +24,7 @@ def test_bubble_sort_descending():
 def test_bubble_sort_invalid():
     result = []
     input_arr = [64, 34, 25, 12, 22, 11, 90]
+    test_arr = 2
 
     result = Lab3.bubble_sort(input_arr, 3)
 
